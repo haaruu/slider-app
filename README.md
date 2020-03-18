@@ -3,10 +3,10 @@ You need to clone this repository and start the server
 
 ### Project installation
 
-$ git clone https://github.com/haaruu/slider-app.git
+`$ git clone https://github.com/haaruu/slider-app.git
 $ cd slider-app
 $ npm install -d
-$ npm start
+$ npm start`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
