@@ -3,7 +3,7 @@ import {LeftArrow, RightArrow, Indicators} from './Transitions';
 import {Slide} from './Slide';
 import '../styles/sliderStyles.scss';
 
-const SLIDE_WIDTH = 450; //width of the slide to swipe
+const SLIDE_WIDTH = 350; //width of the slide to swipe
 
 export class SliderApp extends React.Component {
 
