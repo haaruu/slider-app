@@ -1,0 +1,34 @@
+$breakpoint-desktop: 885px;
+
+.sliderApp {
+  position: relative;
+  transition-property: transform;
+  will-change: transform;
+}
+
+.slider {
+  transition-property: transform;
+  will-change: transform;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color:  #000066; 
+}
+
+.indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+

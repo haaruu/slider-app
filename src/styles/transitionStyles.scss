@@ -1,0 +1,60 @@
+$breakpoint-desktop: 885px;
+
+.leftArrow {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  display: block;
+  color: #111;
+  cursor: pointer;
+  
+  margin-left: 25%;
+      @media (max-width: $breakpoint-desktop - 1px) {
+        margin-left: 10px;
+        margin-top: 15px;
+      }
+}
+
+.rightArrow {
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  display: block;
+  color: #111;
+  cursor: pointer;
+  margin-left: 75px;
+
+  @media (max-width: $breakpoint-desktop - 1px) {
+    margin-right: -80px;
+    margin-top: 15px;
+  }
+}
+
+.arrows {
+  color:#000066;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+  .indicator {
+    display: block;
+    background-color:#000066;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    opacity: .15;
+    margin: 10px;
+    margin-left: 19px;
+  
+    &--active {
+      &,
+      &:hover {
+        opacity: .95;
+      }
+    }
+  }
+
