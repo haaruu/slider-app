@@ -1,0 +1,2 @@
+# slider-app
+Slider application
