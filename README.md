@@ -1,4 +1,5 @@
 To setup this application you have to be installed [Node.js] (https://nodejs.org/) and [npm]
+
 You need to clone this repository and start the server
 
 ### Project installation
