@@ -1,3 +1,13 @@
+To setup this application you have to be installed [Node.js] (https://nodejs.org/) and [npm]
+You need to clone this repository and start the server
+
+### Project installation
+
+$ git clone https://github.com/haaruu/slider-app.git
+$ cd slider-app
+$ npm install -d
+$ npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
